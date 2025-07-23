@@ -1,5 +1,6 @@
 // SQLite extension for SQLBricks
 (function() {
+  var sql;
   if (typeof exports != 'undefined')
     sql = require('sql-bricks');
   else
